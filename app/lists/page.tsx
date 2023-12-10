@@ -5,7 +5,7 @@ export default function Page() {
         <div>
             {books.map((book) => (
                 <p key={book.key} className="m-1">
-                    <strong>{book.name}</strong> {book.author}
+                    <strong>{book.author}</strong> {book.name}
                 </p>
             ))}
         </div>);
