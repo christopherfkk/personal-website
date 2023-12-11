@@ -1,4 +1,4 @@
-import { readFileSync } from 'fs';
+import { promises as fs } from 'fs';
 
 interface writing {
     key: number,
@@ -7,10 +7,10 @@ interface writing {
     body: string
 }
 
-const writingsJson = readFileSync('app/writings/writings.json', 'utf8');
-const writings: writing[] = JSON.parse(writingsJson);
+export default async function Page() {
+    const writingsJson = await fs.readFile(process.cwd() + '/app/writings/writings.json', 'utf8');
+    const writings: writing[] = JSON.parse(writingsJson);
 
-export default function Page() {
     return (
         <div className="">
             {writings.map((writing) => (
