@@ -7,15 +7,15 @@ interface writing {
     body: string
 }
 
-export default async function Page({params}: { params: { slug: string } }) {
+export default async function Page() {
+
+    const TITLE = "Sisyphus’ Brother"
 
     const writingsJson = await fs.readFile(process.cwd() + '/app/writings/writings.json', 'utf8');
     const writings: writing[] = JSON.parse(writingsJson);
 
     const matchingWriting = writings.find(writing => {
-        const lowercasedTitle = writing.title.toLowerCase();
-        const hyphenatedTitle = lowercasedTitle.replace(/[^\w-]+/g, '-');
-        return hyphenatedTitle === params.slug;
+        return writing.title === TITLE;
     });
     return (
         <div className="w-[70%]">

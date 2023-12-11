@@ -1,0 +1,37 @@
+import { promises as fs } from 'fs';
+
+interface writing {
+    key: number,
+    title: string,
+    type: string,
+    body: string
+}
+
+export default async function Page() {
+
+    const TITLE = "Perfect Being"
+
+    const writingsJson = await fs.readFile(process.cwd() + '/app/writings/writings.json', 'utf8');
+    const writings: writing[] = JSON.parse(writingsJson);
+
+    const matchingWriting = writings.find(writing => {
+        return writing.title === TITLE;
+    });
+    return (
+        <div className="w-[70%]">
+            {matchingWriting ? (
+                <div className="space-y-5">
+                    <strong >
+                        {matchingWriting.title}
+                    </strong>
+                    <br />
+                    <p className="display-linebreak">
+                        {matchingWriting.body}
+                    </p>
+                </div>
+            ) : (
+                <p>No post found.</p>
+            )}
+        </div>
+    )
+}
