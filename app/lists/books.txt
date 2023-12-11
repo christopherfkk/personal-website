@@ -29,6 +29,7 @@ Thinking Fast and Slow by Daniel Kahneman
 Why We Sleep by Matthew Walker
 Never Let Me Go by Kazuo Ishiguro
 12 Rules for Life by Jordan Peterson
+Why We're Polarized by Ezra Klein
 Building the Intentional University by Ben Nelson
 Antifragile by Nassim Taleb
 Educated by Tara Westover
@@ -49,6 +50,8 @@ Fooled by Randomness by Nassim Taleb
 Black Swan by Nassim Taleb
 Skin in the Game by Nassim Taleb
 Lives and Deaths by Leo Tolstoy
+Silencing the Past by Michel-Rolph Trouillot
+Hackers and Painters by Paul Graham
 Identity by Francis Fukuyama
 Norwegian Wood by Haruki Murakami
 1Q84 by Haruki Murakami
