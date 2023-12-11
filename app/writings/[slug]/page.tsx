@@ -20,9 +20,14 @@ export default function Page({params}: { params: { slug: string } }) {
     return (
         <div className="w-[70%]">
             {matchingWriting ? (
-                <div>
-                    <strong>{matchingWriting.title}</strong>
-                    <p>{matchingWriting.body}</p>
+                <div className="space-y-5">
+                    <strong >
+                        {matchingWriting.title}
+                    </strong>
+                    <br />
+                    <p className="display-linebreak">
+                        {matchingWriting.body}
+                    </p>
                 </div>
             ) : (
                 <p>No post found.</p>
