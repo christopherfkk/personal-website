@@ -13,11 +13,11 @@ export default function Home() {
                 Past me was incubated by Softbank in Tokyo for a summer, interned as a
                 software engineer at Solar BI and Phala Network, explored nature
                 in the Pacific Northwest at Pearson College UWC, and cram-studied at
-                St. Paul's Co-ed in Hong Kong.
+                St. Paul&apos;s Co-ed in Hong Kong.
             </p>
             <br></br>
             <p>
-                I'm grateful to have been supported by my parents and been able to
+                I&apos;m grateful to have been supported by my parents and been able to
                 travel so widely. Recently, I try to write more to sharpen my thoughts.
                 Though it is still crude.
             </p>
