@@ -18,9 +18,9 @@ export default function RootLayout({
     return (
         <html lang="en">
         <body className={inter.className}>
-        <main className="flex flex-row m-20 gap-20">
+        <main className="flex flex-col md:flex-row m-20 gap-20">
 
-            <div className="flex flex-col flex-initial w-[20%]">
+            <div className="flex flex-col flex-initial md:w-[25%]">
                 <Link href="/">
                     <p className="text-2xl mb-5">Christopher Fok</p>
                 </Link>

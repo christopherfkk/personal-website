@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function Home() {
     return (
-        <div className="w-[50%]">
+        <div className="md:w-[75%] lg:w-[50%]">
             <p>
                 I am a senior at Minerva University. I spent the last semesters in
                 London, Buenos Aires, Hyderabad, Berlin, Seoul, and San Francisco
@@ -18,8 +18,7 @@ export default function Home() {
             <br></br>
             <p>
                 I&apos;m grateful to have been supported by my parents and been able to
-                travel so widely. Recently, I try to write more to sharpen my thoughts.
-                Though it is still crude.
+                travel so widely.
             </p>
         </div>
     )
