@@ -65,7 +65,7 @@ Underground by Haruki Murakami
 The Devotion of Suspect X by Keigo Higashino
 Journey Under the Midnight Sun by Keigo Higashino
 The Reason I Jump by Naoki Higashida
-The Clear Quran (first four Surahs)
+The Clear Quran (first four Surahs) translated by Dr. Mustafa Khattab
 Kokoro by Natsume Soseki
 No Longer Human by Osamu Dazai
 How do you live by Gensabuo Yoshino
@@ -79,3 +79,7 @@ On Palestine by Noam Chomsky
 In Patagonia by Bruce Chatwin
 One Hundred Years of Solitude by Gabriel Marquez
 吶喊 by 魯迅
+The Setting Sun by Osamu Dazai
+Sense of an Ending by Julian Barnes
+Thus Spoke Zarathustra by Friedrich Nietzsche
+The Joyous Science by Friedrich Nietzsche
