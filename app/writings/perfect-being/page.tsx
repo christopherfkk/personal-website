@@ -18,7 +18,7 @@ export default async function Page() {
         return writing.title === TITLE;
     });
     return (
-        <div className="md:w-[75%] lg:w-[50%]">
+        <div className="md:w-[75%] lg:w-[70%]">
             {matchingWriting ? (
                 <div className="space-y-5">
                     <strong >

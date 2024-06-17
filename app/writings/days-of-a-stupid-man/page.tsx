@@ -9,7 +9,7 @@ interface writing {
 
 export default async function Page() {
 
-    const TITLE = "Sisyphus’ Brother"
+    const TITLE = "Days of a Stupid Man"
 
     const writingsJson = await fs.readFile(process.cwd() + '/app/writings/writings.json', 'utf8');
     const writings: writing[] = JSON.parse(writingsJson);
